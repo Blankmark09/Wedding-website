@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wedding of Rowellyn Mae & Mark Christian</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Brand/Logo (Names) -->
+                <div class="flex-shrink-0">
+                    <span class="script-font text-2xl font-semibold text-gray-800">RM & MC</span>
+                </div>
+                <!-- Navigation Links -->
+                <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                    <a href="#home" class="text-gray-600 hover:text-gold px-3 py-2 text-sm font-medium transition duration-150">Home</a>
+                    <a href="#story" class="text-gray-600 hover:text-gold px-3 py-2 text-sm font-medium transition duration-150">Our Story</a>
+                    <a href="#details" class="text-gray-600 hover:text-gold px-3 py-2 text-sm font-medium transition duration-150">Details</a>
+                    <a href="#rsvp" class="text-gray-600 hover:text-gold px-3 py-2 text-sm font-medium transition duration-150">RSVP</a>
+                    <a href="#registry" class="text-gray-600 hover:text-gold px-3 py-2 text-sm font-medium transition duration-150">Registry</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section id="home" class="hero-bg h-[80vh] flex items-center justify-center relative shadow-inner">
+        <!-- Overlay to ensure text readability -->
+        <div class="absolute inset-0 bg-black opacity-30"></div> 
+        
+        <div class="text-center z-10 p-4">
+            <h1 class="script-font text-5xl sm:text-7xl font-light text-white mb-4 tracking-wider">
+                Rowellyn Mae & Mark Christian
+            </h1>
+            <p class="text-2xl sm:text-3xl text-white tracking-widest font-extralight mb-8 uppercase">
+                Are Getting Married
+            </p>
+            <p class="text-xl sm:text-2xl text-white font-medium mb-6">
+                Saturday, July 18, 2026
+            </p>
+            <a href="#rsvp" class="inline-block px-8 py-3 bg-white text-gold font-semibold text-lg rounded-full shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105">
+                RSVP Now
+            </a>
+        </div>
+    </section>
+<!-- CountDown Section -->    
+<section id="countdown" class="py-16 px-4 sm:px-6 lg:px-8 bg-gold-light">
+        <div class="max-w-4xl mx-auto text-center">
+            
+            <h2 class="script-font text-4xl text-gray-800 mb-2">Our Day Countdown</h2>
+            <p class="text-xl text-gold mb-8 font-semibold">
+                October 12, 2026 at 4:00 PM
+            </p>
+
+            <div id="countdown-container" class="grid grid-cols-2 sm:grid-cols-4 gap-4 md:gap-8 mt-4">
+                
+                <!-- Days -->
+                <div class="bg-white p-4 sm:p-6 rounded-xl shadow-md border-t-4 border-gold transition duration-300 hover:shadow-xl">
+                    <div id="days" class="text-4xl sm:text-6xl font-bold text-gray-800 mb-1">00</div>
+                    <div class="text-xs sm:text-sm font-semibold text-gold uppercase tracking-widest">Days</div>
+                </div>
+
+                <!-- Hours -->
+                <div class="bg-white p-4 sm:p-6 rounded-xl shadow-md border-t-4 border-gold transition duration-300 hover:shadow-xl">
+                    <div id="hours" class="text-4xl sm:text-6xl font-bold text-gray-800 mb-1">00</div>
+                    <div class="text-xs sm:text-sm font-semibold text-gold uppercase tracking-widest">Hours</div>
+                </div>
+
+                <!-- Minutes -->
+                <div class="bg-white p-4 sm:p-6 rounded-xl shadow-md border-t-4 border-gold transition duration-300 hover:shadow-xl">
+                    <div id="minutes" class="text-4xl sm:text-6xl font-bold text-gray-800 mb-1">00</div>
+                    <div class="text-xs sm:text-sm font-semibold text-gold uppercase tracking-widest">Minutes</div>
+                </div>
+
+                <!-- Seconds -->
+                <div class="bg-white p-4 sm:p-6 rounded-xl shadow-md border-t-4 border-gold transition duration-300 hover:shadow-xl">
+                    <div id="seconds" class="text-4xl sm:text-6xl font-bold text-gray-800 mb-1">00</div>
+                    <div class="text-xs sm:text-sm font-semibold text-gold uppercase tracking-widest">Seconds</div>
+                </div>
+
+            </div>
+
+            <p id="wedding-message" class="hidden mt-8 text-2xl font-medium text-gold script-font font-bold">
+                The Celebration Has Begun!
+            </p>
+            
+        </div>
+    </section>
+    <!-- 2. Our Story Section -->
+    <section id="story" class="py-20 px-4 sm:px-6 lg:px-8 bg-gold-light">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="script-font text-4xl text-gray-800 mb-4">Our Story</h2>
+            <p class="text-lg text-gray-600 mb-10">
+                It all started with a shared love for obscure 80s movies and terrible karaoke. From that first, awkward coffee date to building a life together, our journey has been the most beautiful adventure. We can't wait to officially start our happily ever after with all of you by our side.
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-8 text-left">
+                <!-- Rowellyn Mae's Side -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-gold">
+                    <h3 class="script-font text-2xl text-gold mb-2">The Bride, Rowellyn Mae</h3>
+                    <p class="text-gray-700">
+                        Rowellyn Mae, a lover of sunsets and strong coffee, is thrilled to marry her best friend. She remembers seeing Mark Christian across the room at a friend's party and just *knowing*. Her favorite memory is their spontaneous road trip up the coast last summer.
+                    </p>
+                </div>
+                <!-- Mark Christian's Side -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-gold">
+                    <h3 class="script-font text-2xl text-gold mb-2">The Groom, Mark Christian</h3>
+                    <p class="text-gray-700">
+                        Mark Christian, a tech enthusiast and world-class cook, can't wait to make Rowellyn Mae his wife. He proposed on their five-year anniversary at the exact spot where they first met. He loves Rowellyn Mae's laugh and her unwavering kindness.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Wedding Details Section -->
+    <section id="details" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="script-font text-4xl text-gray-800 mb-12">The Celebration</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Ceremony -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-b-4 border-gold">
+                    <div class="text-gold text-5xl mb-4">
+                        <svg class="w-10 h-10 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </div>
+                    <h3 class="script-font text-3xl text-gray-800 mb-4">The Ceremony</h3>
+                    <p class="text-gray-700 mb-2 font-semibold">1:00 PM</p>
+                    <p class="text-gray-700 mb-1">Our Lady of Peace and Good Voyage Parish - Lodlod, Lipa City, Batangas (Archdiocese of Lipa)</p>
+                    <p class="text-gray-500 mb-4">W4JR+CWP, Lodlod Ave, Lipa City, Batangas</p>
+                    <a href="https://maps.app.goo.gl/pvBQaHkjzbyUBCNfA" class="text-sm text-gold hover:underline">View Map</a>
+                </div>
+
+                <!-- Reception -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-b-4 border-gold">
+                    <div class="text-gold text-5xl mb-4">
+                        <svg class="w-10 h-10 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.524-.165-1.074-.309-1.632-.424l-1.096-.214C17.47 14.28 16.27 15 15 15c-2.485 0-4.5-2.015-4.5-4.5S12.515 6 15 6c1.27 0 2.47.72 3.09 1.838l1.096.214c.558.115 1.108.259 1.632.424"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.524-.165-1.074-.309-1.632-.424l-1.096-.214C17.47 14.28 16.27 15 15 15c-2.485 0-4.5-2.015-4.5-4.5S12.515 6 15 6c1.27 0 2.47.72 3.09 1.838l1.096.214c.558.115 1.108.259 1.632.424M10.5 7.5l-4.5 4.5"></path></svg>
+                    </div>
+                    <h3 class="script-font text-3xl text-gray-800 mb-4">The Reception</h3>
+                    <p class="text-gray-700 mb-2 font-semibold">3:00 PM - 7:00 PM</p>
+                    <p class="text-gray-700 mb-1">RML Garden Resort and Pavilion</p>
+                    <p class="text-gray-500 mb-4">X6M6+55Q, Lipa City, Batangas</p>
+                    <a href="https://maps.app.goo.gl/qbhSMymDU2CPoWgC6" class="text-sm text-gold hover:underline">View Map</a>
+                </div>
+            </div>
+            
+            <!-- Dress Code/Notes -->
+            <div class="mt-12 p-6 bg-gray-50 rounded-xl shadow-inner max-w-2xl mx-auto">
+                <h4 class="font-semibold text-gray-800 mb-2">Note on Attire</h4>
+                <p class="text-gray-600 text-sm">
+                    Black Tie Optional. We kindly request that you wear cocktail attire. The ceremony is indoors, but the cocktail hour will be held outside.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. RSVP Section -->
+    <section id="rsvp" class="py-20 px-4 sm:px-6 lg:px-8 bg-gold-light">
+        <div class="max-w-xl mx-auto text-center">
+            <h2 class="script-font text-4xl text-gray-800 mb-4">Kindly RSVP</h2>
+            <p class="text-gray-600 mb-10">
+                Please let us know if you can attend by July 18, 2026.
+            </p>
+
+            <!-- Mock RSVP Form -->
+            <form onsubmit="handleRsvp(event)" class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-gold space-y-4">
+                <input type="text" id="name" placeholder="Full Name (for party lookup)" required 
+                       class="w-full p-3 border border-gray-300 rounded-lg focus:border-gold focus:ring focus:ring-gold focus:ring-opacity-50 transition duration-150">
+                
+                <div class="text-left pt-2">
+                    <label class="block text-gray-700 font-medium mb-2">Will you be attending?</label>
+                    <div class="flex items-center space-x-4">
+                        <label class="inline-flex items-center">
+                            <input type="radio" name="attendance" value="attending" checked class="form-radio text-gold border-gray-300 focus:ring-gold">
+                            <span class="ml-2 text-gray-700">Joyfully Attending</span>
+                        </label>
+                        <label class="inline-flex items-center">
+                            <input type="radio" name="attendance" value="declining" class="form-radio text-gold border-gray-300 focus:ring-gold">
+                            <span class="ml-2 text-gray-700">Regretfully Declining</span>
+                        </label>
+                    </div>
+                </div>
+
+                <textarea id="notes" rows="3" placeholder="Dietary restrictions or a kind note (Optional)"
+                          class="w-full p-3 border border-gray-300 rounded-lg focus:border-gold focus:ring focus:ring-gold focus:ring-opacity-50 transition duration-150"></textarea>
+
+                <button type="submit" 
+                        class="w-full py-3 mt-4 bg-gold text-white font-semibold rounded-lg shadow-md hover:bg-gold-dark transition duration-300 transform hover:scale-[1.01]">
+                    Submit RSVP
+                </button>
+                
+                <!-- Custom message box for feedback -->
+                <div id="rsvp-message" class="mt-4 p-3 hidden bg-green-100 text-green-700 rounded-lg font-medium"></div>
+            </form>
+        </div>
+    </section>
+    
+    <!-- 5. Registry Section -->
+    <section id="registry" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="script-font text-4xl text-gray-800 mb-4">Registry & Gifts</h2>
+            <p class="text-gray-600 mb-10">
+                Your presence is the only gift we need! If you still wish to contribute, we have registered at the following places.
+            </p>
+            
+            <div class="grid sm:grid-cols-3 gap-6">
+                <!-- Registry 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-2 border-gold transition duration-300 hover:shadow-xl hover:scale-[1.02]">
+                    <h3 class="font-semibold text-xl text-gray-800 mb-2">Crate & Barrel</h3>
+                    <p class="text-sm text-gray-500 mb-4">Help us stock our new kitchen!</p>
+                    <a href="#" target="_blank" class="inline-block px-4 py-2 bg-gold text-white text-sm font-medium rounded-full hover:bg-gold-dark transition">View Registry</a>
+                </div>
+                <!-- Registry 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-2 border-gold transition duration-300 hover:shadow-xl hover:scale-[1.02]">
+                    <h3 class="font-semibold text-xl text-gray-800 mb-2">Honeyfund</h3>
+                    <p class="text-sm text-gray-500 mb-4">Contribute to our dream honeymoon in Italy.</p>
+                    <a href="#" target="_blank" class="inline-block px-4 py-2 bg-gold text-white text-sm font-medium rounded-full hover:bg-gold-dark transition">Contribute</a>
+                </div>
+                <!-- Registry 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-2 border-gold transition duration-300 hover:shadow-xl hover:scale-[1.02]">
+                    <h3 class="font-semibold text-xl text-gray-800 mb-2">Amazon</h3>
+                    <p class="text-sm text-gray-500 mb-4">A little bit of everything else!</p>
+                    <a href="#" target="_blank" class="inline-block px-4 py-2 bg-gold text-white text-sm font-medium rounded-full hover:bg-gold-dark transition">View Registry</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Gallery Section (Placeholder) -->
+    <section id="gallery" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-100">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="script-font text-4xl text-gray-800 mb-10">Photo Gallery</h2>
+            <p class="text-gray-600 mb-10">A few snapshots from our journey together...</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <img src="https://placehold.co/400x500/e0e0e0/555555?text=Photo+1" alt="Couple Photo 1" class="w-full h-auto object-cover rounded-lg shadow-md hover:opacity-80 transition duration-300">
+                <img src="https://placehold.co/400x500/d0d0d0/555555?text=Photo+2" alt="Couple Photo 2" class="w-full h-auto object-cover rounded-lg shadow-md hover:opacity-80 transition duration-300">
+                <img src="https://placehold.co/400x500/c0c0c0/555555?text=Photo+3" alt="Couple Photo 3" class="w-full h-auto object-cover rounded-lg shadow-md hover:opacity-80 transition duration-300">
+                <img src="https://placehold.co/400x500/b0b0b0/555555?text=Photo+4" alt="Couple Photo 4" class="w-full h-auto object-cover rounded-lg shadow-md hover:opacity-80 transition duration-300">
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <h3 class="script-font text-3xl text-white mb-2">Rowellyn Mae & Mark Christian</h3>
+            <p class="text-sm text-gray-400">&copy; 2026. See you there!</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white transition">Venue Contact</a>
+                <span class="text-gray-600">|</span>
+                <a href="mailto:cabalteramark09@gmail.com" class="text-gray-400 hover:text-white transition">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>

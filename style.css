@@ -1,0 +1,31 @@
+        /*
+        ========================================
+        CSS STYLES (Equivalent to style.css)
+        ========================================
+        */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7; /* Light off-white background */
+        }
+        
+        /* Apply a script-like font for titles for a romantic touch */
+        .script-font {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Subtle gold accent color */
+        .text-gold { color: #b8860b; }
+        .bg-gold-light { background-color: #fcf8e3; }
+        .border-gold { border-color: #b8860b; }
+        .hover\:bg-gold-dark:hover { background-color: #a0740a; }
+        
+        /* Parallax effect for the hero section image */
+        .hero-bg {
+            background-image: url('https://placehold.co/1920x1080/e0e0e0/555555?text=Beautiful+Couple+Photo');
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
